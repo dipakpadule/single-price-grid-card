@@ -1,0 +1,23 @@
+$Cyan: hsl(179, 62%, 43%);
+$Bright-Yellow: hsl(71, 73%, 54%);
+$Light-Gray: hsl(204, 43%, 93%);
+$Grayis-Blue: hsl(218, 22%, 67%);
+
+$Font-size: 1rem;
+
+$Font-Family: 'Karla';
+$medium: 400;
+$bold:700;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: $Light-Gray;
+  font-family: $Font-Family;
+  min-height: 100%;
+  display: grid;
+  place-items: center;  
+}
